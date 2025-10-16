@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+
+.open-sans-goog {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.container{
+    display:flex;
+    background-color: #4a4a4a;
+    height: 100vh;
+}
+
+.box1{
+    background-color:#131313 ;
+   width: 20vw;
+   color:white;
+   
+   display:flex;
+   flex-direction:column;
+}
+
+.side{
+    
+   
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 40px 10px 10px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.chat_input{
+    background-color: rgb(39, 39, 39);
+}
+.box2{
+    background-color: grey;
+    width: 80vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.chat_box{
+   display:flex;
+   flex-direction: column;
+   flex-grow:1;
+   overflow-y: auto;
+   background-color: rgb(39, 39, 39);
+   
+    padding:40px 40px;
+
+
+}
+
+
+
+
+
+input{
+    outline: none;
+    border: none;
+    background-color:#131313 ;
+    width: 90%;
+    color:white;
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    padding-left: 20px;
+    
+}
+
+button{
+    border-radius: 999px;
+    border: none;
+    height: 40px;
+    width: 40px
+}
+    
+/* varun section */
+
+    
+.message{
+    max-width:60%;
+    padding:12px 18px;
+    border-radius:12px;
+    margin-bottom:12px;
+    line-height:1.5;
+    white-space:pre-wrap;
+    height: 20v;
+}
+
+
+.user_message{
+    background-color:rgb(24, 24, 24);
+    color:white;
+    margin-left:auto;
+    border-bottom-right-radius:0px;
+    border:2px solid black;
+}
+.user_message:hover{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.ai_message{
+    background-color:rgb(143, 254, 254);
+    color:black;
+    margin-right:auto;
+    border-bottom-left-radius:0px;
+    border:2px solid black;
+    font-family: "Work Sans", sans-serif;
+}
+
+.ai_message:hover{
+    background-color:rgb(94, 255, 255);
+    color:black;
+    font-family: "Work Sans", sans-serif;
+}
+#title{
+    margin:20px 0px;
+    
+    padding-left:20px;
+    font-family: "Open Sans";
+}
+
+hr{
+    color: grey;
+    background-color: grey;
+    
+}
+
+
+
+.montserrat-goog{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:hover{
+    color: grey;
+}
+a:click{
+    outline:2px solid white;
+}
+input:hover{
+    background-color:#000000 ;
+}
+
+.boxi2{
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+   overflow-y: auto;
+   padding: 40px;
+   justify-content: space-between;
+}
+
+.textbox{
+    width:100%;
+    height: 50vh;
+}
+
+.outputbox{
+    width: 100%;
+    height: 50vh;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
+.work-sans-goog {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
