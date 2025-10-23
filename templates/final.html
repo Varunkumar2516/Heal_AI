@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HEAL AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+   
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="box1">
+        <h1 id="title">❤️HEAL AI</h1>
+        <div class="side nav-link" data-target="health">Health Assistant</div>
+        <div class="side nav-link" data-target="nutrition">Nutritionist</div>
+        <div class="side nav-link" data-target="firstaid">First Aid Helper</div>
+        <div class="side nav-link" data-target="medical">Medical Term Explainer</div>
+    </div>
+
+    <div class="box2">
+        <div class="chat_box" id="chat_display">
+             <!-- AI messages will appear here -->
+        </div>
+        <div class="chat_input">
+            <form id="form_id" class="Enter">
+                <input type="text" id="chat_input" placeholder="Enter text">
+                <button type="submit" id="submit_btn">▶</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='finalscript.js') }}"></script>
+</body>
+</html>
